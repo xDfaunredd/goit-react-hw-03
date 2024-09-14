@@ -23,7 +23,6 @@ function App() {
 
   function handleAddContact(newContact) {
     setContactListItems((prev) => [...prev, newContact]);
-    console.log(contactListItems);
   }
 
   function handleDeleteContact(contactId) {
