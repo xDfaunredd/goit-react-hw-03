@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 5px;
+
+  span {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.text {
+  min-width: 150px;
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  margin: 0 auto;
+  transition: 250ms;
+  &:hover {
+    background-color: rgb(164, 161, 161);
+  }
+}
