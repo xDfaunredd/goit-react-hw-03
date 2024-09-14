@@ -39,7 +39,7 @@ function App() {
       "contactListItems",
       JSON.stringify(contactListItems)
     );
-  });
+  }, [contactListItems]);
 
   return (
     <div className="app-container">
