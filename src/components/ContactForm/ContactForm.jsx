@@ -12,7 +12,7 @@ const validationSchema = Yup.object().shape({
     .max(50, "Too long")
     .required("Required"),
   number: Yup.string()
-    .matches(/^\d{3}-\d{2}-\d{2}$/, "Invalid phone number format")
+    .matches(/^\d{3}-\d{2}-\d{2}$/, "Number format should be: 000-00-00")
     .required("Required"),
 });
 
